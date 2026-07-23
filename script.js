@@ -6,11 +6,11 @@ function flipCoin(){
     setTimeout(function(){
         let random = Math.random();
         if(random < 0.5){
-            coin.src = "resources/heads.svg";
+            coin.src = "heads.svg";
             result.innerHTML = "Heads";
         }
         else{
-            coin.src = "resources/tails.svg";
+            coin.src = "tails.svg";
             result.innerHTML = "Tails";
         }
         coin.classList.remove("flip");
